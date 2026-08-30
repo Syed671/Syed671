@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Syed Abdullah
 
-### 🚀 Senior PHP / Laravel Developer | 4.8 Years Experience | New Delhi, India
+### 🚀 Senior PHP / Laravel Developer | 5+ Years Experience | New Delhi, India
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syed-abdullah-ab4931110)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Syed671)
@@ -14,9 +14,10 @@
 
 ## 🧑‍💻 About Me
 
-I'm a **Senior PHP / Laravel Developer** with **4 years 8 months** of hands-on experience building scalable enterprise and government web applications. I specialize in backend development, REST API design, and database architecture using Laravel and MySQL.
+I'm a **Senior PHP / Laravel Developer** with **5+ years** of hands-on experience building scalable enterprise and government web applications. I specialize in backend development, REST API design, and database architecture using Laravel and MySQL.
 
-- 🏛️ Delivered mission-critical systems for **UP RERA**, **Income Tax Department of India**, and **Ministry of Road Transport & Highways (MoRTH)**
+- 🏛️ Delivered mission-critical systems for the **Bureau of Energy Efficiency**, **UP RERA**, **Income Tax Department of India**, **Ministry of External Affairs** and **MoRTH**
+- 🏥 Integrated **ABDM** (Ayushman Bharat Digital Mission) APIs on a national dialysis platform
 - ⚡ Optimized 20+ REST APIs reducing response time by **35%** through query tuning & caching
 - 🔒 Conducted security audits aligned with OWASP standards on government-facing applications
 - 🏢 Currently working at **RV Solutions** as Senior PHP Laravel Developer
@@ -32,13 +33,14 @@ I'm a **Senior PHP / Laravel Developer** with **4 years 8 months** of hands-on e
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
 **Frontend & Tools**
 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -57,10 +59,20 @@ I'm a **Senior PHP / Laravel Developer** with **4 years 8 months** of hands-on e
 
 | Project | Client | Tech Stack | Impact |
 |---------|--------|------------|--------|
+| 🔬 BEE Check-Testing Portal | Bureau of Energy Efficiency | Angular, Laravel, Microservices, MySQL | Market-surveillance lifecycle for star-rated appliances, with two-level verification and full audit trail |
+| 🏥 PMNDP Dialysis Programme | National health programme (ABDM) | Laravel, Angular, MySQL, ABDM APIs | Dialysis services across government hospitals, with ABDM integration for patient data interoperability |
 | 🏠 UP RERA Complaint Management System | Uttar Pradesh Real Estate Regulatory Authority | Laravel, MySQL | Complaint registration, case tracking & hearing management for 10,000+ users |
 | 📊 Vishleshan — Performance Evaluation | Income Tax Department of India | Laravel, MySQL | KPI-based assessment & reporting system for IT officers |
 | 🛣️ IAHE Training Portal | Ministry of Road Transport & Highways (MoRTH) | Laravel, MySQL, Angular | Comprehensive training management for highway engineers |
 | 🌐 Internal Admin Portal | Ministry of External Affairs, Govt of India | PHP CodeIgniter, MySQL | Large-scale internal government application with 99%+ uptime |
+
+---
+
+## 🧪 Personal Projects
+
+**[Helpdesk Ticketing System](https://github.com/Syed671/helpdesk-ticketing)** — Angular 19, Node.js, Express, MySQL
+
+Support ticketing with priority-based SLA deadlines. A scheduled job finds tickets that pass their deadline while still open, escalates them and records the change. Selection runs `FOR UPDATE` inside a transaction so overlapping runs cannot escalate the same ticket twice. JWT auth with agent and admin roles, and every change written to an event log.
 
 ---
 
